@@ -167,15 +167,6 @@ body{
 }
 
 /* Filter  */
- .filter-bnt1:hover,
- .filter-bnt1:focus,
- .filter-bnt1:active
- {  
-  border-color: #2196f3;
-
- }
-
-
  .filter-bnt {
   font-style: normal;
   font-weight: 500;
@@ -184,7 +175,6 @@ body{
   text-align: center;
   color: var(--primary-color);
 }
- 
 
 .button {
   font-family: inherit;
@@ -196,6 +186,11 @@ body{
   border-radius: 4px;
   border-style: none;
   color: var(--primary-color);
+}
+
+.activ:hover,
+--accent{
+  color: var(--accent);
 }
 
 .button:hover,
